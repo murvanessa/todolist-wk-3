@@ -21,7 +21,6 @@ As a user I should be able to see the add that todo list title(s) from user stor
 - [ ] Do ...
 - [ ] This branch is made by `your-name`
 
-
 * User story 3 - UPDATE/EDIT
 As a user I should be able to change the added title(s)
 - [ ] Use branch `-`
@@ -34,26 +33,26 @@ As a user I should be able to delete the added title(s), and if any, all the tas
 - [ ] Do ...
 - [ ] This branch is made by `your-name`
 
-* User story 5
+* User story 5 - READ/DISPLAY
 As a user I should be able to add many todo list tasks in the clicked todo title 
 - [ ] Use branch `-`
 - [ ] Do ...
 - [ ] This branch is made by `your-name`
 
 
-* User story 6
+* User story 6 - UPDATE/EDIT
 As a user I should be able to change the added task(s)
 - [ ] Use branch `-`
 - [ ] Do ...
 - [ ] This branch is made by `your-name`
 
-* User story 7
+* User story 7 - DELETE
 As a user I should be able to delete the added task(s)
 - [ ] Use branch `-`
 - [ ] Do ...
 - [ ] This branch is made by `your-name`
 
-* User story 8
+* User story 8 - MARK/DEMARK
 As a user I should be able to mark/demark each todo from any todo list
 - [ ] Use branch `-`
 - [ ] Do ...
