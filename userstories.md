@@ -11,7 +11,7 @@ As a user I should be able to created the initial page
 As a user I should be able to see a text box so that I can be able to add the title(s) of my todo list
 
 * User story 3 - READ/DISPLAY
-As a user I should be able to see the add that todo list title(s) from user story 1  
+As a user I should be able to see the added todo list title(s) from user story 1  
 
 * User story 4 - DELETE
 As a user I should be able to delete the added title(s), and if any, all the tasks that it contains
