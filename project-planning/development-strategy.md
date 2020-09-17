@@ -42,7 +42,7 @@ __As a user I want to see the initial page when I load the site__
 
 ## 2. User story : Create TodoList Container 
 
-__As a user I should be able to add a title(s) for my todo list(s)__
+__As a user I would like be able to add a title(s) for my todo list(s)__
 
 __Assigned to Sayed Kazimi__
 
