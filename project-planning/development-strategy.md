@@ -131,25 +131,26 @@ placeholder="Add Title for Todo List"
 ### Task C: JavaScript
 ```js
 
-	render() {
-		let listBox = document.createElement("div");
-		listBox.id = "list-box";
-		let todoTitle = document.createElement("h2");
-		todoTitle.textContent = this.state.name;
-		let inputItems = document.createElement("input");
-		inputItems.type = "text";
-		inputItems.name = "inputItems";
-		inputItems.placeholder = "Enter Tasks To Do";
+render() {
+// Added codes inside this function
 
-		const addItems = document.createElement("button");
-		addItems.textContent = "Add";
+let listBox = document.createElement("div");
+listBox.id = "list-box";
+let todoTitle = document.createElement("h2");
+todoTitle.textContent = this.state.name;
+let inputItems = document.createElement("input");
+inputItems.type = "text";
+inputItems.name = "inputItems";
+inputItems.placeholder = "Enter Tasks To Do";
+
+const addItems = document.createElement("button");
+addItems.textContent = "Add";
 		
-		listBox.appendChild(todoTitle);
-		listBox.appendChild(inputItems);
-		listBox.appendChild(addItems);
+listBox.appendChild(todoTitle);
+listBox.appendChild(inputItems);
+listBox.appendChild(addItems);
 
-		return listBox;
-	}
+return listBox;
 }
 ```
 
