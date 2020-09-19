@@ -11,9 +11,13 @@ export const createNewListHandler = (event) => {
   }
 
   const newList = new List(event.target.value);
-
+  
+  newList.state = {
+    name : event.target.value,
+    allTodo: []
+  };
   const renderedNewList = newList.render();
-
+  
 
   document.getElementById('lists')
     .appendChild(renderedNewList);
