@@ -50,7 +50,7 @@ div#lists {
 	width: 280px;
 	color: white;
 	box-sizing: border-box;
-	background: rgb(243, 7, 192);
+	background: rgb(4, 128, 45);
 	border-radius: 1em;
 	padding: 1rem;
 	margin: 1rem;
@@ -58,7 +58,7 @@ div#lists {
 
 #list-box button {
 	outline: none;
-	background: rgb(199, 20, 154);
+	background: rgb(158, 160, 158);
 	border-radius: 1em;
 	border: 1px solid #b33092;
 	color: #fff;
