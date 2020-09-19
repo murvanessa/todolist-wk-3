@@ -216,20 +216,13 @@ __As a user I should be able to delete the tasks that I want__
 
 __Assigned to Yulia__
 
-- _Given [context] when [a specific action is performed] then [a set of consequences should occur]__
-- ...
 
 ### REPO
 
 - This user story is developed on branch `delete-task`.
 - This branch is merged to `master` branch after completion.
 
-### Task A
-
-### Task B
-
-### Task ...
-
+### Created a deleteItems method
 ---
 
 
