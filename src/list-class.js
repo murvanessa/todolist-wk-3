@@ -34,7 +34,7 @@ export class List {
     inputItems.type = "text";
     inputItems.name = "inputItems";
     inputItems.placeholder = "Enter Tasks To Do";
-    inputItems.id = "userInput";
+    inputItems.id = `${this.state.name}item`;
 
     let todosOl = document.createElement("ol");
     todosOl.id = `${this.state.name}ol`;
@@ -54,7 +54,7 @@ export class List {
   addItems() {
     debugger;
 
-    let inputID = `userInput`;
+    let inputID = `${this.state.name}item`;
     let itemValue = document.getElementById(inputID).value;
 
     if (itemValue === "") {
