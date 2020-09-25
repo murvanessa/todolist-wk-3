@@ -12,19 +12,25 @@
 
 ## WIREFRAME
 
-![wireframe]()
+![wireframe](../public/wireframe-wk3.png)
 
 ---
 
 ## 0.Setup
 
+1. Created repo from the template
+1. Activated Live page
+1. Invited collaborators
+1. Created group issue
+1. ...
+
 ---
 
 ## 1. User story : Initialize Application
 
-__As a user I want to see the initial page when I load the site__
+**As a user I want to see the initial page when I load the site**
 
-- _Given [context] when [a specific action is performed] then [a set of consequences should occur]__
+- \_Given [context] when [a specific action is performed] then [a set of consequences should occur]\_\_
 - ...
 
 ### REPO
@@ -32,28 +38,34 @@ __As a user I want to see the initial page when I load the site__
 - This user story is developed on branch `Initialize Application`.
 - This branch is merged to `master` branch after completion.
 
-### Task A
+### Task A: HTML
 
-### Task B
+- Template was ready to use
+
+### Task B: CSS
+
+- Copy-past from last project
 
 ### Task ...
 
 ---
 
-## 2. User story : Create TodoList Container 
+## 2. User story : Create TodoList Container
 
-__As a user I would like be able to add a title(s) for my todo list(s)__
+**As a user I would like be able to add a title(s) for my todo list(s)**
 
-__Assigned to Sayed Kazimi__
+**Assigned to Sayed Kazimi**
 
-- _Given [context] when [a specific action is performed] then [a set of consequences should occur]__
+- \_Given [context] when [a specific action is performed] then [a set of consequences should occur]\_\_
 - ...
 
 ### REPO
 
 - This user story is developed on branch `TodoList-container`.
 - This branch is merged to `master` branch after completion.
+
 ### Task A: CSS
+
 ```css
 #list-name-input {
 	padding: 0.7em;
@@ -121,14 +133,14 @@ div#lists {
 	cursor: pointer;
 	text-align: center;
 }
-
 ```
 
 ### Task B: HTML
 
-placeholder="Add Title for Todo List" 
+placeholder="Add Title for Todo List"
 
 ### Task C: JavaScript
+
 ```js
 
 render() {
@@ -145,7 +157,7 @@ inputItems.placeholder = "Enter Tasks To Do";
 
 const addItems = document.createElement("button");
 addItems.textContent = "Add";
-		
+
 listBox.appendChild(todoTitle);
 listBox.appendChild(inputItems);
 listBox.appendChild(addItems);
@@ -167,13 +179,14 @@ return listBox;
 - Create a PR and assigned reviewers **Razvan, Yulia**
 
 ---
-## 3. User story :  Add tasks in the list 
 
-__As a user I should be able to see a text box and add button so that I can be able to add the tasks for any todo list of choice__
+## 3. User story : Add tasks in the list
 
-__Assigned to Razvan__
+**As a user I should be able to see a text box and add button so that I can be able to add the tasks for any todo list of choice**
 
-- _Given [context] when [a specific action is performed] then [a set of consequences should occur]__
+**Assigned to Razvan**
+
+- \_Given [context] when [a specific action is performed] then [a set of consequences should occur]\_\_
 - ...
 
 ### REPO
@@ -188,34 +201,36 @@ __Assigned to Razvan__
 ### Task ...
 
 ---
-## 4. User story :  MARK/UNMARK -  add check box to update the task 
 
-__As a user I should be able to see the added items in todo list__
+## 4. User story : MARK/UNMARK - add check box to update the task
 
-__Assigned to Anna__
+**As a user I should be able to see the added items in todo list**
 
-- _Given [context] when [a specific action is performed] then [a set of consequences should occur]__
+**Assigned to Anna**
+
+> note: finished as part of `final-touch`
+
+- \_Given [context] when [a specific action is performed] then [a set of consequences should occur]\_\_
 - ...
 
 ### REPO
 
-- This user story is developed on branch `mark-unmark`.
+- This user story is developed on branch `MARK-UNMARK`.
 - This branch is merged to `master` branch after completion.
 
 ### Task A
 
 ### Task B
 
-### Task ...
+### Task C ...
 
 ---
 
-## 5. User story :  DELETE task
+## 5. User story : DELETE task
 
-__As a user I should be able to delete the tasks that I want__
+**As a user I should be able to delete the tasks that I want**
 
-__Assigned to Yulia__
-
+**Assigned to Yulia**
 
 ### REPO
 
@@ -223,17 +238,16 @@ __Assigned to Yulia__
 - This branch is merged to `master` branch after completion.
 
 ### Created a deleteItems method
+
 ---
-
-
 
 ## 6. Finishing Touches
 
 - Validate code to check for any last mistakes
 
-__Assigned to Sayed__
+**Assigned to Sayed**
 
-- _Given [context] when [a specific action is performed] then [a set of consequences should occur]__
+- \_Given [context] when [a specific action is performed] then [a set of consequences should occur]\_\_
 - ...
 
 ### REPO
@@ -241,10 +255,52 @@ __Assigned to Sayed__
 - This user story is developed on branch `final-touch`.
 - This branch is merged to `master` branch after completion.
 
-### Task A
+### Task A: JavaScript
 
-### Task B
+1. edited the following code in the function `displayItems`
 
-### Task ...
+```js
+if (todo.completed === true) {
+	checkItem.checked = true;
+} else {
+	checkItem.checked = false;
+}
+```
+
+2. Created a new function `toggleComplete`
+
+```js
+	toggleComplete(todo) {
+		debugger;
+		todo.completed = !todo.completed;
+		this.displayItems();
+	}
+```
+
+3. fixed a simple mistake inside of the class `List`
+
+### Task B: CSS
+
+- Added background for the web page
+
+### Task C: wireframe
+
+- Created a simple wireframe and added to the development-strategy
+
+### Task D: Development Strategy
+
+- Wrote the final part of the development strategy
+
+### Task E: PR
+
+- Created PR and assigned reviewers
+
+### Task F: issue
+
+- Created issue for this part of the project
+
+### Task G:
+
+- Validate HTML, CSS, ...
 
 ---

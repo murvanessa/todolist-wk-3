@@ -1,32 +1,24 @@
-'use strict';
+"use strict";
 
-import { logger } from '../../lib/logger.js';
-import { List } from '../list-class.js';
+import { logger } from "../../lib/logger.js";
+import { List } from "../list-class.js";
 
 export const createNewListHandler = (event) => {
+	// Number 13 is the "Enter" key on the keyboard
+	if (event.keyCode !== 13) {
+		return;
+	}
 
-  // Number 13 is the "Enter" key on the keyboard
-  if (event.keyCode !== 13) {
-    return;
-  }
+	const newList = new List(event.target.value);
 
-  const newList = new List(event.target.value);
-  
-  newList.state = {
-    name : event.target.value,
-    allTodo: []
-  };
-  const renderedNewList = newList.render();
-  
+	const renderedNewList = newList.render();
 
-  document.getElementById('lists')
-    .appendChild(renderedNewList);
+	document.getElementById("lists").appendChild(renderedNewList);
 
-  logger.push({
-    action: 'create new list',
-    event,
-    newList,
-    renderedNewList
-  });
-
+	logger.push({
+		action: "create new list",
+		event,
+		newList,
+		renderedNewList,
+	});
 };
