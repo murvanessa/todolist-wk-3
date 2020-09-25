@@ -1,3 +1,6 @@
+body {
+	background: url("./HG-logo.jpg");
+}
 #list-name-input {
 	padding: 0.7em;
 	font-size: 1em;
