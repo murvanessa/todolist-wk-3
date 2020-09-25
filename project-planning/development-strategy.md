@@ -18,6 +18,12 @@
 
 ## 0.Setup
 
+1. Created repo from the template
+1. Activated Live page
+1. Invited collaborators
+1. Created group issue
+1. ...
+
 ---
 
 ## 1. User story : Initialize Application
@@ -32,9 +38,13 @@
 - This user story is developed on branch `Initialize Application`.
 - This branch is merged to `master` branch after completion.
 
-### Task A
+### Task A: HTML
 
-### Task B
+- Template was ready to use
+
+### Task B: CSS
+
+- Copy-past from last project
 
 ### Task ...
 
